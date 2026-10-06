@@ -6,7 +6,7 @@ import "./splashscreen.css";
 
 const SplashScreen = () => {
   const router = useRouter();
-  const [timeLeft, setTimeLeft] = useState(5);
+  const [timeLeft, setTimeLeft] = useState(3);
 
   const text = "Portfolio";
   const name = "Santosh";

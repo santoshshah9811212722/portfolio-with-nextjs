@@ -11,8 +11,12 @@
     align-items: center;
     justify-content: center;
     font-size: 80px;
+   color: white;
+    font-weight: 600;
    
-   
+}
+p{
+    color: white;
 }
 .about-title h1 img{
     width: 6%;
@@ -155,7 +159,7 @@
        
     }
     .about-right{
-        /* display: flex; */
+        display: flex;
     }
     .about-para{
         font-size: 16px;

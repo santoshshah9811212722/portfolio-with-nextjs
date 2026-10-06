@@ -19,7 +19,14 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
+    background: #a8b3b285;
     
+    
+       position: sticky;
+    top: 0;
+    z-index: 1000;
+    /* background: rgba(16  8, 179, 178, 0.6); */
+    backdrop-filter: blur(10px);
 }
 
 .underline{
@@ -45,7 +52,7 @@ body{
 }
 .nav-connect{
     font-size: 22px;
-    padding: 20px 40px;
+    padding: 10px 15px;
     border-radius: 50px;
     background:linear-gradient(267deg,#DA7C25 0.36%,#B923E1 102.06%) ;
     cursor: pointer;
@@ -76,11 +83,9 @@ body{
 @media(max-width:768px) {
     html{
         overflow-x: hidden;
-        /* overflow-y: visible; */
+        
     }
-   body{
-    overflow: hidden;
-   }
+ 
     .navbar{
         display: flex;
         justify-content: center;

@@ -9,19 +9,12 @@ function About() {
     <div id="about" className="about">
       <div className="about-title">
         <h1>
-          About
-          <Image
-            src='/about/theme.jpg'
-            alt="logo"
-            width={80}
-            height={80}
-            // style={{ width: "8%", height: "8%", marginLeft: "15px" }}
-          />
+          About Me
         </h1>
       </div>
       <div className="about-sections">
         <div className="about-left">
-          <Image src='/about/profile.jpg' alt="logo" width={300} height={300} style={{borderRadius:"10px"}}/>
+          <Image src='/about/profile.jpg' alt="logo" width={1500} height={0} style={{borderRadius:"10px"}}/>
         </div>
         <div className="about-right">
           <div className="about-para">

@@ -6,7 +6,10 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin:80px 170px;
+    margin: 80px auto;
+    padding: 0 20px;
+    max-width: 1300px;
+    width: 100%;
 }
 
 .mywork-title{
@@ -24,14 +27,16 @@
 }
 .mywork-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     align-items: center;
     gap: 40px;
-    padding: 60px;
+    padding: 20px;
+    width: 100%;
 }
 .mywork-container img{
-    width: 463px;
-    height: 463px;
+    width: 100%;
+    max-width: 463px;
+    height: auto;
     border-radius: 15px;
     box-sizing: border-box;
     transition: 0.3s;

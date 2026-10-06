@@ -2,11 +2,16 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin:50px 70px ;
+    margin:50px auto;
+    padding: 0 20px;
+    max-width: 1300px;
+    width: 100%;
 }
 .footer-top{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 .footer-top-left h1{
     background: linear-gradient(270deg, #DF8908 80%, #B415FF 100%);
